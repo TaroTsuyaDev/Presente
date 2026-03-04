@@ -3,7 +3,7 @@ const textoInicial = document.getElementById('texto-inicial');
 const pedido = document.getElementById('pedido');
 const btnNao = document.getElementById('btn-nao'); // Pegamos o botão Não
 
-const tipoFlores = ['🌸', '🌺', '🌻', '🌷'];
+const tipoFlores = ['🌸', '🌺', '🌷'];
 
 let floresPlantadas = 0;
 const limiteFlores = 200; 
@@ -97,5 +97,6 @@ document.getElementById('btn-obvio').addEventListener('click', () => {
     alert('Uhuuuuu agora somos namoradosss, ebaaaa');
 
 });
+
 
 
