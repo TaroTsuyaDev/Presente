@@ -90,11 +90,12 @@ jardim.addEventListener('touchmove', (evento) => {
 
 // --- AÇÕES DOS BOTÕES FINAIS ---
 document.getElementById('btn-sim').addEventListener('click', () => {
-    alert('Ela disse SIM! O duo tá formado!');
+    alert('Da pra melhorar essa resposta em minha linda namorada');
 });
 
 document.getElementById('btn-obvio').addEventListener('click', () => {
-    alert('Ela disse COM CERTEZA! Sucesso total!');
+    alert('Uhuuuuu agora somos namoradosss, ebaaaa');
 
 });
+
 
