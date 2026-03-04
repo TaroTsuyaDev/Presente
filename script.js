@@ -3,10 +3,10 @@ const textoInicial = document.getElementById('texto-inicial');
 const pedido = document.getElementById('pedido');
 const btnNao = document.getElementById('btn-nao'); // Pegamos o botão Não
 
-const tipoFlores = ['🌸', '🌺', '🌻', '✨', '💖', '🌷'];
+const tipoFlores = ['🌸', '🌺', '🌻', '🌷'];
 
 let floresPlantadas = 0;
-const limiteFlores = 100; 
+const limiteFlores = 200; 
 
 function plantarFlor(x, y) {
     // REMOVIDO a trava que parava as flores. Agora elas são infinitas!
@@ -97,3 +97,4 @@ document.getElementById('btn-obvio').addEventListener('click', () => {
     alert('Ela disse COM CERTEZA! Sucesso total!');
 
 });
+
